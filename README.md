@@ -8,7 +8,7 @@ further improved to 99.35% overall accuracy, precision = 0.993, recall = 0.994, 
 excellent class-level recognition, with only five misclassifications overall, according to
 the confusion matrix.
 
-#Working environment, libraries and models
+# Working environment, libraries and models
 
 All of the process was run first, in personal laptop with GPU AMD Ryzen 5 4600H
 and 16GB of RAM, and then in more powerful machine that SDU University pro-
@@ -25,14 +25,14 @@ an optimizer from Keras library. It was used for adjusting learning rates adapti
 each parameter. It is also suitable for sparse gradients and nonstationary objectives,
 making it effective in transfer learning scenarios
 
-#Data Acquisition and Preprocessing
+# Data Acquisition and Preprocessing
 
 Several CNN models were used for training DL model for identification apple diseases.
 The dataset used for this purpose, consist a total number of 3171 apples leaf images.
 This is subset of popular PlantVillage dataset, which consist 4 different classes, apples
 infected with apple scab, black rot, cedar rust and healthy apples
 
-#Model Training
+# Model Training
 
 First, by randomly changing a portion of input units to 0 during training, model
 layers were utilized to create completely connected layers for classification, lowering
